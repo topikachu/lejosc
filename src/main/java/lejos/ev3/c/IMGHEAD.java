@@ -69,8 +69,8 @@ public class IMGHEAD extends Structure {
 	public IMGHEAD() {
 		super();
 	}
-	public IMGHEAD(Pointer address) {
-		super(address);
+	public IMGHEAD(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Sign", "ImageSize", "VersionInfo", "NumberOfObjects", "GlobalBytes");

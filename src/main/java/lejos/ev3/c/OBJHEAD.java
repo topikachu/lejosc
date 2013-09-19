@@ -58,8 +58,8 @@ public class OBJHEAD extends Structure {
 	public OBJHEAD() {
 		super();
 	}
-	public OBJHEAD(Pointer address) {
-		super(address);
+	public OBJHEAD(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("OffsetToInstructions", "OwnerObjectId", "TriggerCount", "LocalBytes");

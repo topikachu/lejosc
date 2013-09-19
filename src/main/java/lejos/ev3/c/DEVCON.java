@@ -37,8 +37,8 @@ public class DEVCON extends Structure {
 	public DEVCON() {
 		super();
 	}
-	public DEVCON(Pointer address) {
-		super(address);
+	public DEVCON(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Connection", "Type", "Mode");

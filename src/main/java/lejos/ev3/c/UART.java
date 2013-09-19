@@ -89,8 +89,8 @@ public class UART extends Structure {
 	public UART() {
 		super();
 	}
-	public UART(Pointer address) {
-		super(address);
+	public UART(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("TypeData", "Repeat", "Raw", "Actual", "LogIn", "Status", "Output", "OutputLength");

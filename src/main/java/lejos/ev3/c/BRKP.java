@@ -37,8 +37,8 @@ public class BRKP extends Structure {
 	public BRKP() {
 		super();
 	}
-	public BRKP(Pointer address) {
-		super(address);
+	public BRKP(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Addr", "OpCode");

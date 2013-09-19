@@ -80,8 +80,8 @@ public class IICDAT extends Structure {
 	public IICDAT() {
 		super();
 	}
-	public IICDAT(Pointer address) {
-		super(address);
+	public IICDAT(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Result", "Port", "Repeat", "Time", "WrLng", "WrData", "RdLng", "RdData");

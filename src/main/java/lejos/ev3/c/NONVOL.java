@@ -35,8 +35,8 @@ public class NONVOL extends Structure {
 	public NONVOL() {
 		super();
 	}
-	public NONVOL(Pointer address) {
-		super(address);
+	public NONVOL(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("VolumePercent", "SleepMinutes");

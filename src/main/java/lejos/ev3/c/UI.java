@@ -24,8 +24,8 @@ public class UI extends Structure {
 	public UI() {
 		super();
 	}
-	public UI(Pointer address) {
-		super(address);
+	public UI(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Pressed");

@@ -201,8 +201,8 @@ public class ANALOG extends Structure {
 	public ANALOG() {
 		super();
 	}
-	public ANALOG(Pointer address) {
-		super(address);
+	public ANALOG(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("InPin1", "InPin6", "OutPin5", "BatteryTemp", "MotorCurrent", "BatteryCurrent", "Cell123456", "Pin1", "Pin6", "Actual", "LogIn", "LogOut", "NxtCol", "OutPin5Low", "Updated", "InDcm", "InConn", "OutDcm", "OutConn");

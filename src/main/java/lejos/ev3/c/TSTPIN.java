@@ -37,8 +37,8 @@ public class TSTPIN extends Structure {
 	public TSTPIN() {
 		super();
 	}
-	public TSTPIN(Pointer address) {
-		super(address);
+	public TSTPIN(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Port", "Length", "String");

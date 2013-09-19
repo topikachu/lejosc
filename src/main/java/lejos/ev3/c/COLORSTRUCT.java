@@ -54,8 +54,8 @@ public class COLORSTRUCT extends Structure {
 	public COLORSTRUCT() {
 		super();
 	}
-	public COLORSTRUCT(Pointer address) {
-		super(address);
+	public COLORSTRUCT(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Calibration", "CalLimits", "Crc", "ADRaw", "SensorRaw");

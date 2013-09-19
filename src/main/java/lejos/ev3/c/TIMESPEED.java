@@ -69,8 +69,8 @@ public class TIMESPEED extends Structure {
 	public TIMESPEED() {
 		super();
 	}
-	public TIMESPEED(Pointer address) {
-		super(address);
+	public TIMESPEED(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Cmd", "Nos", "Speed", "Time1", "Time2", "Time3", "Brake");

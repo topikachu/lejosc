@@ -97,8 +97,8 @@ public class OBJ extends Structure {
 		public UUnion() {
 			super();
 		}
-		public UUnion(Pointer address) {
-			super(address);
+		public UUnion(Pointer peer) {
+			super(peer);
 		}
 		/**
 		 * @param CallerId_or_TriggerCount !< Caller id used for SUBCALL to save object id to return to<br>
@@ -120,8 +120,8 @@ public class OBJ extends Structure {
 	public OBJ() {
 		super();
 	}
-	public OBJ(Pointer address) {
-		super(address);
+	public OBJ(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Ip", "pLocal", "ObjStatus", "Blocked", "u", "Local");

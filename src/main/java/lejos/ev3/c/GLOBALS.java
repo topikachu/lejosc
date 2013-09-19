@@ -436,8 +436,8 @@ public class GLOBALS extends Structure {
 	public GLOBALS() {
 		super();
 	}
-	public GLOBALS(Pointer address) {
-		super(address);
+	public GLOBALS(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("NonVol", "FirstProgram", "PrintBuffer", "TerminalEnabled", "FavouritePrg", "ProgramId", "Program", "InstrCnt", "pImage", "pGlobal", "pObjHead", "pObjList", "ObjectIp", "ObjectLocal", "Objects", "ObjectId", "ObjIpSave", "ObjGlobalSave", "ObjLocalSave", "DispatchStatusSave", "PrioritySave", "TimerDataSec", "TimerDatanSec", "Debug", "Test", "RefCount", "TimeuS", "OldTime1", "OldTime2", "NewTime", "DispatchStatus", "Priority", "Value", "Handle", "Errors", "ErrorIn", "ErrorOut", "MemorySize", "MemoryFree", "MemoryTimer", "SdcardSize", "SdcardFree", "SdcardTimer", "SdcardOk", "LcdBuffer", "LcdUpdated", "Analog", "pAnalog", "AdcFile");

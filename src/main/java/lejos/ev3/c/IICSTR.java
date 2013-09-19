@@ -100,8 +100,8 @@ public class IICSTR extends Structure {
 	public IICSTR() {
 		super();
 	}
-	public IICSTR(Pointer address) {
-		super(address);
+	public IICSTR(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Port", "Time", "Type", "Mode", "Manufacturer", "SensorType", "SetupLng", "SetupString", "PollLng", "PollString", "ReadLng");

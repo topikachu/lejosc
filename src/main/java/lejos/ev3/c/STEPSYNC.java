@@ -61,8 +61,8 @@ public class STEPSYNC extends Structure {
 	public STEPSYNC() {
 		super();
 	}
-	public STEPSYNC(Pointer address) {
-		super(address);
+	public STEPSYNC(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Cmd", "Nos", "Speed", "Turn", "Step", "Brake");

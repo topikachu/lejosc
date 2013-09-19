@@ -212,8 +212,8 @@ public class TYPES extends Structure {
 	public TYPES() {
 		super();
 	}
-	public TYPES(Pointer address) {
-		super(address);
+	public TYPES(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Name", "Type", "Connection", "Mode", "DataSets", "Format", "Figures", "Decimals", "Views", "RawMin", "RawMax", "PctMin", "PctMax", "SiMin", "SiMax", "InvalidTime", "IdValue", "Pins", "Symbol", "Align");

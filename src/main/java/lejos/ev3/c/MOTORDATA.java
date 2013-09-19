@@ -37,8 +37,8 @@ public class MOTORDATA extends Structure {
 	public MOTORDATA() {
 		super();
 	}
-	public MOTORDATA(Pointer address) {
-		super(address);
+	public MOTORDATA(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("TachoCounts", "Speed", "TachoSensor");

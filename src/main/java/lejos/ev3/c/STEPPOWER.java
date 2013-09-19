@@ -69,8 +69,8 @@ public class STEPPOWER extends Structure {
 	public STEPPOWER() {
 		super();
 	}
-	public STEPPOWER(Pointer address) {
-		super(address);
+	public STEPPOWER(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Cmd", "Nos", "Power", "Step1", "Step2", "Step3", "Brake");

@@ -69,8 +69,8 @@ public class TIMEPOWER extends Structure {
 	public TIMEPOWER() {
 		super();
 	}
-	public TIMEPOWER(Pointer address) {
-		super(address);
+	public TIMEPOWER(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Cmd", "Nos", "Power", "Time1", "Time2", "Time3", "Brake");

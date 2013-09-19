@@ -24,8 +24,8 @@ public class SOUND extends Structure {
 	public SOUND() {
 		super();
 	}
-	public SOUND(Pointer address) {
-		super(address);
+	public SOUND(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Status");

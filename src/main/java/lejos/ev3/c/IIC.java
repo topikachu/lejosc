@@ -97,8 +97,8 @@ public class IIC extends Structure {
 	public IIC() {
 		super();
 	}
-	public IIC(Pointer address) {
-		super(address);
+	public IIC(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("TypeData", "Repeat", "Raw", "Actual", "LogIn", "Status", "Changed", "Output", "OutputLength");

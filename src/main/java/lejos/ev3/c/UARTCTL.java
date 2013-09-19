@@ -37,8 +37,8 @@ public class UARTCTL extends Structure {
 	public UARTCTL() {
 		super();
 	}
-	public UARTCTL(Pointer address) {
-		super(address);
+	public UARTCTL(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("TypeData", "Port", "Mode");

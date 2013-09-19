@@ -222,8 +222,8 @@ public class PRG extends Structure {
 	public PRG() {
 		super();
 	}
-	public PRG(Pointer address) {
-		super(address);
+	public PRG(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("InstrCnt", "InstrTime", "StartTime", "RunTime", "pImage", "pData", "pGlobal", "pObjHead", "pObjList", "ObjectIp", "ObjectLocal", "Objects", "ObjectId", "Status", "StatusChange", "Result", "Brkp", "Label", "Debug", "Name");

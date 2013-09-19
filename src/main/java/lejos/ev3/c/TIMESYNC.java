@@ -61,8 +61,8 @@ public class TIMESYNC extends Structure {
 	public TIMESYNC() {
 		super();
 	}
-	public TIMESYNC(Pointer address) {
-		super(address);
+	public TIMESYNC(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Cmd", "Nos", "Speed", "Turn", "Time", "Brake");

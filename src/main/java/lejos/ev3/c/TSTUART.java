@@ -45,8 +45,8 @@ public class TSTUART extends Structure {
 	public TSTUART() {
 		super();
 	}
-	public TSTUART(Pointer address) {
-		super(address);
+	public TSTUART(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Bitrate", "Port", "Length", "String");

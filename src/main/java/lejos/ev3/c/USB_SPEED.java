@@ -21,8 +21,8 @@ public class USB_SPEED extends Structure {
 	public USB_SPEED() {
 		super();
 	}
-	public USB_SPEED(Pointer address) {
-		super(address);
+	public USB_SPEED(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Speed");

@@ -21,8 +21,8 @@ public class LCD extends Structure {
 	public LCD() {
 		super();
 	}
-	public LCD(Pointer address) {
-		super(address);
+	public LCD(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Lcd");

@@ -25,8 +25,8 @@ public class LABEL extends Structure {
 	public LABEL() {
 		super();
 	}
-	public LABEL(Pointer address) {
-		super(address);
+	public LABEL(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("Addr");

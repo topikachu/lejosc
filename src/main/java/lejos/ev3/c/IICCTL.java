@@ -37,8 +37,8 @@ public class IICCTL extends Structure {
 	public IICCTL() {
 		super();
 	}
-	public IICCTL(Pointer address) {
-		super(address);
+	public IICCTL(Pointer peer) {
+		super(peer);
 	}
 	protected List<? > getFieldOrder() {
 		return Arrays.asList("TypeData", "Port", "Mode");
